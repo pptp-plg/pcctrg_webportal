@@ -1,0 +1,148 @@
+html ,body {
+	font-family: THSarabunNewRegular;
+	text-align:center;
+	background: #eeeeee;
+	color: #C96F00;
+	min-height:500px;
+    height: 100%;
+}
+
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+h1{
+	font-size: 2em;
+
+}
+
+h2{
+	font-size: 1.4em;
+
+}
+
+a ,a:link ,a:visited ,a:active ,a:hover{
+    text-decoration: none;
+    cursor: pointer;
+	color: #000000;
+}
+
+hr {
+	display: block;
+	border: 0;
+    border-top-width: 0px;
+    border-top-style: none;
+    border-top-color: currentcolor;
+	border-top: 2px solid #635423;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+div.container {
+	width: 100%;
+	min-width: 400px;
+	max-width: 900px;
+	height: 600px;
+	position: relative;
+	margin: auto;
+	padding-top: 5%;
+	display:block;
+
+}
+div.portal-img {
+	width: 55%;
+	min-width: 400px;
+	max-width: 450px;
+	height: 70%;
+	max-height: 300px;
+	position: relative;
+	margin-top: 5%;
+	display: inline-block;
+}
+div.section-img {
+    width: 100%;
+	min-width: 400px;
+	height: 100%;
+	max-height: 300px;
+    transition: opacity 1s linear;
+	background-size: cover;
+	-moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+	border-style: solid;
+	border-color: #FCC719;
+	border-radius: 16px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: auto;
+    position: absolute;
+
+}
+div.border {
+	width: 100%;
+	min-width: 400px;
+	height: 100%;
+	max-height: 300px;
+	-moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+	border-style: solid;
+	border-color: #FCC719;
+    border-radius: 16px;
+	margin: auto;
+    position: absolute;
+
+}
+
+div.section-nav {
+	max-width: 400px;
+	line-height: 0.5;
+    position: relative;
+	margin: auto;
+	display: inline-block;
+
+}
+button {
+    background-color: #00C3D0;
+	border: none;
+    width: 230px;
+    height: 40px;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.95em;
+    margin: 5px 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover {
+    color: #ffffff;
+	background-color: #00F1BE;
+}
+
+div.section-nav-contact{
+	font-size: 1.75em;
+	padding: 20px 10px;
+	text-align: center;
+
+}
+
+div.footer {
+	display: inline-block;
+	font-size: 1em;
+	color: #bbb;
+	left: 0;
+	bottom: 0;
+	height: 20px;
+	width: 100%;
+}
+small {
+	
+	font-size: 1em;
+	color: #CCC;
+}
+span.icon{
+	font-family: 'icomoon' !important;
+	padding: 10px;
+}
